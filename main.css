@@ -1,0 +1,32 @@
+.module{
+    border-style: double;
+    margin: 15pt;
+    padding: 19pt;
+    width: 200pt;
+    background-color: rgb(110, 108, 108);
+    display: inline-block;
+    vertical-align: top;
+    height: 515pt;
+}
+.name{
+    text-align: center;
+    font-size: larger;
+}
+.text{
+    padding: 5pt;
+    margin: 30pt;
+    border-style: groove; 
+    font-size: large;
+    text-align: center;
+}
+@media (min-width:800px) and (max-width: 1280px){
+    .module{
+        display: inline-flex;
+        flex-direction: column;
+        align-items: stretch;
+        height: 600pt;
+    }
+}
+mark{
+    background-color: rgb(135, 173, 173);
+}
